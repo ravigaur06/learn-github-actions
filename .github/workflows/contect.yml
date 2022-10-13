@@ -3,7 +3,7 @@ on:
   push
 
 jobs:
-  dump_context_to_logs
+  dump_context_to_logs:
     runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
